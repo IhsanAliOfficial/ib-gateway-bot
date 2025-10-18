@@ -1,0 +1,46 @@
+2025-05-30 21:16:36 INFO sent startApi
+2025-05-30 21:16:36 INFO REQUEST startApi {}
+2025-05-30 21:16:36 INFO SENDING startApi b'\x00\x00\x00\x0871\x002\x001\x00\x00'
+2025-05-30 21:16:36 INFO ANSWER connectAck {}
+2025-05-30 21:16:36 INFO ANSWER openOrder {'orderId': 2, 'contract': 4348354176: 265598,AAPL,STK,,0.0,?,,SMART,,USD,AAPL,NMS,False,,combo:, 'order': 4348353504: 2,1,1096336512: STP LMT SELL 10@189.050000 GTC, 'orderState': <ibapi.order_state.OrderState object at 0x1032e9fd0>}
+2025-05-30 21:16:36 INFO 📊 ORDER UPDATE: ID=2 | PreSubmitted | Filled=0.0 @ 0.0
+2025-05-30 21:16:36 INFO ANSWER openOrder {'orderId': 4, 'contract': 4349332048: 265598,AAPL,STK,,0.0,?,,SMART,,USD,AAPL,NMS,False,,combo:, 'order': 4349331728: 4,1,1096336513: STP LMT SELL 10@189.050000 GTC, 'orderState': <ibapi.order_state.OrderState object at 0x1033d8cd0>}
+2025-05-30 21:16:36 INFO 📊 ORDER UPDATE: ID=4 | PreSubmitted | Filled=0.0 @ 0.0
+2025-05-30 21:16:36 INFO ANSWER openOrderEnd {}
+2025-05-30 21:16:36 INFO ▶ Connected (nextOrderId=64)
+2025-05-30 21:16:36 INFO REQUEST reqRealTimeBars {'reqId': 1, 'contract': 4349332368: 0,AAPL,STK,,0.0,,,SMART,,USD,,,False,,combo:, 'barSize': 60, 'whatToShow': 'TRADES', 'useRTH': False, 'realTimeBarsOptions': []}
+2025-05-30 21:16:36 INFO SENDING reqRealTimeBars b'\x00\x00\x00350\x003\x001\x000\x00AAPL\x00STK\x00\x000.0\x00\x00\x00SMART\x00\x00USD\x00\x00\x0060\x00TRADES\x000\x00\x00'
+2025-05-30 21:16:36 INFO ▶ Subscribed to AAPL (reqId=1)
+2025-05-30 21:16:36 INFO REQUEST reqRealTimeBars {'reqId': 2, 'contract': 4348325232: 0,MSFT,STK,,0.0,,,SMART,,USD,,,False,,combo:, 'barSize': 60, 'whatToShow': 'TRADES', 'useRTH': False, 'realTimeBarsOptions': []}
+2025-05-30 21:16:36 INFO SENDING reqRealTimeBars b'\x00\x00\x00350\x003\x002\x000\x00MSFT\x00STK\x00\x000.0\x00\x00\x00SMART\x00\x00USD\x00\x00\x0060\x00TRADES\x000\x00\x00'
+2025-05-30 21:16:36 INFO ▶ Subscribed to MSFT (reqId=2)
+2025-05-30 21:16:36 INFO REQUEST reqRealTimeBars {'reqId': 3, 'contract': 4348325536: 0,GOOG,STK,,0.0,,,SMART,,USD,,,False,,combo:, 'barSize': 60, 'whatToShow': 'TRADES', 'useRTH': False, 'realTimeBarsOptions': []}
+2025-05-30 21:16:36 INFO SENDING reqRealTimeBars b'\x00\x00\x00350\x003\x003\x000\x00GOOG\x00STK\x00\x000.0\x00\x00\x00SMART\x00\x00USD\x00\x00\x0060\x00TRADES\x000\x00\x00'
+2025-05-30 21:16:36 INFO ▶ Subscribed to GOOG (reqId=3)
+2025-05-30 21:16:36 INFO ANSWER managedAccounts {'accountsList': 'DUE817561'}
+2025-05-30 21:16:36 INFO ANSWER error {'reqId': -1, 'errorCode': 2104, 'errorString': 'Market data farm connection is OK:usfarm.nj'}
+2025-05-30 21:16:36 ERROR ERROR -1 2104 Market data farm connection is OK:usfarm.nj
+2025-05-30 21:16:36 INFO ANSWER error {'reqId': -1, 'errorCode': 2104, 'errorString': 'Market data farm connection is OK:usfuture'}
+2025-05-30 21:16:36 ERROR ERROR -1 2104 Market data farm connection is OK:usfuture
+2025-05-30 21:16:36 INFO ANSWER error {'reqId': -1, 'errorCode': 2104, 'errorString': 'Market data farm connection is OK:cashfarm'}
+2025-05-30 21:16:36 ERROR ERROR -1 2104 Market data farm connection is OK:cashfarm
+2025-05-30 21:16:36 INFO ANSWER error {'reqId': -1, 'errorCode': 2104, 'errorString': 'Market data farm connection is OK:usfarm'}
+2025-05-30 21:16:36 ERROR ERROR -1 2104 Market data farm connection is OK:usfarm
+2025-05-30 21:16:36 INFO ANSWER error {'reqId': -1, 'errorCode': 2106, 'errorString': 'HMDS data farm connection is OK:ushmds'}
+2025-05-30 21:16:36 ERROR ERROR -1 2106 HMDS data farm connection is OK:ushmds
+2025-05-30 21:16:36 INFO ANSWER error {'reqId': -1, 'errorCode': 2158, 'errorString': 'Sec-def data farm connection is OK:secdefnj'}
+2025-05-30 21:16:36 ERROR ERROR -1 2158 Sec-def data farm connection is OK:secdefnj
+2025-05-30 21:16:37 INFO ANSWER error {'reqId': 1, 'errorCode': 10089, 'errorString': "Requested market data requires additional subscription for API. See link in 'Market Data Connections' dialog for more details."}
+2025-05-30 21:16:37 ERROR ERROR 1 10089 Requested market data requires additional subscription for API. See link in 'Market Data Connections' dialog for more details.
+2025-05-30 21:16:37 INFO ANSWER error {'reqId': 2, 'errorCode': 10089, 'errorString': "Requested market data requires additional subscription for API. See link in 'Market Data Connections' dialog for more details."}
+2025-05-30 21:16:37 ERROR ERROR 2 10089 Requested market data requires additional subscription for API. See link in 'Market Data Connections' dialog for more details.
+2025-05-30 21:16:37 INFO ANSWER error {'reqId': 3, 'errorCode': 420, 'errorString': "Invalid Real-time Query:No market data permissions for ISLAND STK. Requested market data requires additional subscription for API. See link in 'Market Data Connections' dialog for more details."}
+2025-05-30 21:16:37 ERROR ERROR 3 420 Invalid Real-time Query:No market data permissions for ISLAND STK. Requested market data requires additional subscription for API. See link in 'Market Data Connections' dialog for more details.
+2025-05-30 21:16:40 INFO detected KeyboardInterrupt, SystemExit
+2025-05-30 21:17:17 INFO detected KeyboardInterrupt, SystemExit
+2025-05-30 21:17:18 INFO detected KeyboardInterrupt, SystemExit
+2025-05-30 21:17:18 INFO detected KeyboardInterrupt, SystemExit
+2025-05-30 21:17:18 INFO detected KeyboardInterrupt, SystemExit
+2025-05-30 21:17:18 INFO detected KeyboardInterrupt, SystemExit
+2025-05-30 21:17:18 INFO disconnecting
+2025-05-30 21:17:18 INFO ANSWER connectionClosed {}
